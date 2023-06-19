@@ -1,0 +1,10 @@
+version: '3'
+services:
+    article_list:
+        ports:
+            - "80:80"
+        build:
+            context: ./
+            dockerfile: ./Dockerfile
+        volumes:
+            - ./:/app

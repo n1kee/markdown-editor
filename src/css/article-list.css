@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    padding: 10px 15px;
+}
+select, input {
+    height: 30px;
+}
+select {
+    cursor: pointer;
+}
+th, td {
+    padding: 5px;
+}
+.hidden {
+    display: none !important;
+}
+#editor-modal {
+    width: 90vw !important;
+    max-width: none !important;
+}
+.btn {
+    padding: 0 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.article-edit-btn {
+    background-color: #80ff80;
+}
+.article-action-btn {
+    height: 40px;
+    line-height: 40px;
+}
+.agent-list-controls {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
